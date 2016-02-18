@@ -1,0 +1,30 @@
+_bm_complete()
+{
+    local cur prev opts
+    COMPREPLY=()
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    prev="${COMP_WORDS[COMP_CWORD-1]}"
+    case "${prev}" in
+	bm)
+	    if [ ${#COMP_WORDS[@]} -eq  2 ]
+	    then
+                opts="add ls rm $(grep -oE " [a-zA-Z0-9]+$" ~/.bmrc)"
+                COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
+                return 0;
+	    fi
+            ;;
+        add|ls)
+	    COMPREPLY=( $(compgen -W "${names}" -- ${cur}) )
+	    return 0
+	    ;;
+        *|rm)
+	    local running=$(grep -oP " [a-zA-Z0-9]+$" ~/.bmrc)
+	    COMPREPLY=( $(compgen -W "${running}" -- ${cur}) )
+	    return 0
+	    ;;
+    esac
+
+    return 0
+}
+
+complete -F _bm_complete bm
