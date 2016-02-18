@@ -4,7 +4,7 @@ What is this?
 
 **bm** is a POSIX compliant bookmarking system for shell.  It can be
 used to create new bookmarks pointing to a directory, switching to a
-speciefied bookmarks and removing existing bookmarks. It comes with a
+specified bookmark and removing existing bookmarks. It comes with a
 completion support for **Bash** and a manual in form of a **manpage**.
 
 How to use it?
