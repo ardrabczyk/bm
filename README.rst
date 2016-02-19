@@ -28,4 +28,4 @@ In short:
    $ bm rm first_bookmark
    $ bm ls
 
-See included **man** for details.
+See included **man** for description of all commands and exit codes.
