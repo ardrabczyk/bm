@@ -29,3 +29,16 @@ In short:
    $ bm ls
 
 See included **man** for description of all commands and exit codes.
+
+Installation
+============
+
+Source **bm.sh** in your interactive shell startup file, for example
+**$HOME/.bashrc** or **$HOME/.zshrc**. **bm** must be sourced before
+use and not run as an external command because it uses **cd** command
+which changes state of the *current* subshell and therefore must be
+executed in current shell context.
+
+Source **bm.bash-completion** in your **Bash** shell startup file or
+copy it to */etc/bash_completion.d* for autocompletion of **bm**
+commands and bookmarks names.
