@@ -10,7 +10,7 @@ bm \- POSIX compliant bookmarking system for shell
 .SH DESCRIPTION
 .B bm
 can be used to create new bookmarks pointing to a directory, jump to
-a specific bookmark, remove an existing bookmark and list existing
+a specified bookmark, remove an existing bookmark and list existing
 bookmarks.
 .SH OPTIONS
 .TP
