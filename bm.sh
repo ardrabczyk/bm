@@ -27,7 +27,7 @@
 # USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
 # DAMAGE.
 
-# bm.sh: extract POSIX compliant bookmarking system for shell
+# bm.sh: POSIX compliant bookmarking system for shell
 
 bm_config=~/.bmrc
 
