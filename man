@@ -13,6 +13,7 @@ can be used to create new bookmarks pointing to a directory, jump to
 a specified bookmark, remove an existing bookmark and list existing
 bookmarks.
 .SH OPTIONS
+Without options go to \fIbookmark\fR.  Description of available options:
 .TP
 .BR ls
 List existing bookmarks
