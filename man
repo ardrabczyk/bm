@@ -39,6 +39,7 @@ Source \fIbm.sh\fR in your shell startup file.  Then:
  /tmp/test-dir
  $ bm rm first_bookmark
  $ bm ls
+ $
 .SH EXIT CODES
 .TP
 .BR 1
