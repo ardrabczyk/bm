@@ -5,7 +5,7 @@ bm \- POSIX compliant bookmarking system for shell
 .B bm
 [\fBls\fR]
 [\fBadd\fR]
-[\fBrm\fR]
+[\fBrm\fR \fIbookmark\fR]
 .IR bookmark ...
 .SH DESCRIPTION
 .B bm
@@ -21,8 +21,8 @@ List existing bookmarks
 .BR add " " \fINAME\fR
 Add a new bookmark named \fINAME\fR. \fINAME\fR must match \fI^[a-zA-Z0-9_]+$\fR regex.
 .TP
-.BR rm
-Remove existing bookmark
+.BR rm " " \fINAME\fR
+Remove bookmark named \fINAME\fR
 .SH EXAMPLE
 Source \fIbm.sh\fR in your shell startup file.  Then:
 .BR
