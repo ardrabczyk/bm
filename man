@@ -67,3 +67,6 @@ Failed to read $bm_config
 .TP
 .BR 9
 Argument missing
+.SH AUTHORS
+.TP
+Arkadiusz Drabczyk <arkadiusz@drabczyk.org>
