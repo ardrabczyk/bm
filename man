@@ -19,7 +19,7 @@ Without options go to \fIbookmark\fR.  Description of available options:
 List existing bookmarks
 .TP
 .BR add " " \fINAME\fR
-Add a new bookmark named \fINAME\fR. \fINAME\fR must match \fI^[a-zA-Z0-9_]+$\fR regex.
+Add a new bookmark named \fINAME\fR. \fINAME\fR must match \fI^[a-zA-Z0-9_]+$\fR regex
 .TP
 .BR rm " " \fINAME\fR
 Remove bookmark named \fINAME\fR
